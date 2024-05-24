@@ -53,7 +53,7 @@ document.getElementById('convert-button').addEventListener('click', () => {
     if (isNaN(number) || number < 1 || number > 4000000) {
       errorElement.textContent = 'Please enter a number between 1 and 4000000';
     } else {
-      const romanNumeral = intToRoman(number);
-      outputElement.textContent = `Roman numeral: ${romanNumeral}`;
+      const Numeral = intToRoman(number);
+      outputElement.textContent = `Roman numeral: ${Numeral}`;
     }
 });
